@@ -109,6 +109,7 @@ ax.patch.set_facecolor('black')
 plt.savefig("./img/affine/result4.jpg")
 plt.show()
 
+'''
 # prepare image and figure
 fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2)
 Z = get_image()
@@ -127,3 +128,4 @@ do_plot(ax4, Z, mtransforms.Affine2D().
         rotate_deg(30).skew_deg(30, 15).scale(-1, .5).translate(.5, -1))
 
 plt.show()
+'''
